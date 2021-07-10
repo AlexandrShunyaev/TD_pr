@@ -17,6 +17,10 @@ UI-дизайн - Махаличев Никита.
 
 Основной тип данных - класс GameObject из Unity
 
+## ОПИСАНИЕ ИНТЕРФЕЙСА
+
+https://docs.google.com/document/d/1YtsYbyA2vf6Xs2_1zeIXXIwChpW0y3AfbVObiR59iJk/edit
+
 ## ТЗ
 
 1. Генерация уровня.
