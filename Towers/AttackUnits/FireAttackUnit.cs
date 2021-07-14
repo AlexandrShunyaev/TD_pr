@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CommonAttackUnit : AttackUnit
+public class FireAttackUnit : AttackUnit
 {
     private void Awake()
     {
@@ -13,9 +13,9 @@ public class CommonAttackUnit : AttackUnit
     }
     private void FixedUpdate()
     {
-        if(_target != null)
+        if (_target != null)
         {
-            _transform.position = Vector3.MoveTowards(_transform.position, _target.transform.position, _speed*Time.deltaTime);
+            _transform.position = Vector3.MoveTowards(_transform.position, _target.transform.position, _speed * Time.deltaTime);
             _speed += _speedBoost;
         }
         else
@@ -28,7 +28,7 @@ public class CommonAttackUnit : AttackUnit
     }
     private void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.GetComponent<Enemy>() == _target)
+        if (other.gameObject.GetComponent<Enemy>() == _target)
         {
             _target.TakeDamage(_damage);
             UnitDestroy();
@@ -42,7 +42,7 @@ public class CommonAttackUnit : AttackUnit
     public override void Upgrade(float upgradeScale)
     {
         _damage *= upgradeScale;
-        _speed *= upgradeScale; 
+        _speed *= upgradeScale;
     }
     protected override void UnitDestroy()
     {

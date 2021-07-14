@@ -16,6 +16,6 @@ public abstract class AttackUnit : MonoBehaviour
     
     public abstract void SetTarget(Enemy target);
     public abstract void Upgrade(float upgradeScale);
-    protected abstract void Destory();
+    protected abstract void UnitDestroy();
 
 }

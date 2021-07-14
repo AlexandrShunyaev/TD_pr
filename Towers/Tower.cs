@@ -15,6 +15,7 @@ public abstract class Tower : MonoBehaviour
     protected float _attackTimer = 0f;
     protected Enemy _target;
     protected Transform _transform;
+    protected SphereCollider _collider;
     protected List<AttackUnit> _attackUnits;
 
     protected abstract void Attack();
