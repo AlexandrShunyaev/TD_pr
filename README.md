@@ -26,3 +26,7 @@ https://docs.google.com/document/d/1YtsYbyA2vf6Xs2_1zeIXXIwChpW0y3AfbVObiR59iJk/
 1. Генерация уровня.
 2. Построение графа. 
 3. Реализация алгоритма.
+
+## ССЫЛКА НА БИЛД
+
+https://drive.google.com/file/d/1qeBFb4RC35yRbfUyxtX0zoT2V2DWQqrC/view?usp=sharing
